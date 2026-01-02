@@ -6,6 +6,7 @@ import Card from './components/Card.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
+ 
 
   return (
     <>
@@ -16,9 +17,9 @@ test</h1>
 <div className='cardname'>
 
 
-<Card username="Jane Ives" age="17" Location="Hawkins"/>
+<Card username="Jane Ives" age="17" Location="Hawkins" image1="https://i.pinimg.com/736x/08/2d/cc/082dcc58b75d24b10e40ec8137b5b86b.jpg"/>
 
-<Card username="Mike Wheeler" age="17" Location="Hawkins" />
+<Card username="Mike Wheeler" age="17" Location="Hawkins" image1="https://i.pinimg.com/1200x/07/bf/4d/07bf4dcbf53536721fb7b0dc1ae61285.jpg" />
 </div>
     </>
   )

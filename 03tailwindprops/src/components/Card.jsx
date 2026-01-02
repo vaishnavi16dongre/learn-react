@@ -1,27 +1,21 @@
 
-export default function Card(props) {
+export default function Card({username, age , Location,image1 }) {
   return (
     <div className="w-80 flex flex-col rounded-xl bg-black min-h-[19rem] ">
       <div>
-        <img
-          src="https://i.pinimg.com/736x/08/2d/cc/082dcc58b75d24b10e40ec8137b5b86b.jpg"
-          alt="test"
-          className="object-cover object-center rounded-t-xl"
+        <img  className="object-cover object-center rounded-t-xl" src={image1}
         />
       </div>
-      <div className="flex flex-col py-3 px-3 pb-10">
+      <div className="flex flex-col py-2 px-2 pb-3">
         <div className="">
-          <h2 className="font-bold ">Name: {props.username}</h2> <br/>
+          <h2 className="font-bold ">Name: {username}</h2> <br/>
 
-           <p className="font-bold ">Age: {props.age}</p>
+           <p className="font-bold ">Age: {age}</p>
            <br/>
-            <h2 className="font-bold ">Address: {props.Location}</h2>
+            <h2 className="font-bold ">Address: {Location}</h2>
          
         </div>
-        <div className="flex  justify-between">
-          <p></p>
-       
-        </div>
+   
       </div>
     </div>
   )
