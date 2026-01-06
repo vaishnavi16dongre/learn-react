@@ -5,5 +5,45 @@ h1{
   border: 1px solid white ;
   width: 750px;
   height: 200px;
+
   margin: auto;
+  border-radius: 15px;
+  background: linear-gradient(to left,rgb(99, 99, 109), rgb(70, 67, 67));
+ 
+ 
+}
+.box1{
+   display: flex;
+    justify-content: center;
+  gap: 20px;
+}
+.pass{
+  width: 500px;
+  margin-top: 50px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid white;
+  font-size: larger;
+
+}
+button{
+   margin-top: 50px;
+  width: 80px;
+  height:45px ;
+  border-radius: 5px;
+  background-color: rgb(67, 117, 225);
+  color: white;
+  font-size: larger;
+
+}
+.options{
+ 
+
+  margin-top: 60px;
+  margin-left: 150px;
+  display: flex;
+  gap: 20px;
+  
+  
 }
